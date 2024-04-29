@@ -1,0 +1,24 @@
+.roll-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: calc(33.33% - 20px); /* Adjust width based on your layout */
+    margin-bottom: 20px; /* Adjust spacing between items */
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.item h3 {
+    margin-top: 10px; /* Adjust spacing between title and image */
+}
+
+.item p {
+    margin-top: 5px; /* Adjust spacing between description and title */
+}
